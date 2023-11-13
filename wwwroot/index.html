@@ -1,0 +1,583 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/themes/light.css" />
+    <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.11.2/cdn/shoelace-autoloader.js"></script>
+
+
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    
+
+    <title>Topo App</title>
+</head>
+<body>
+
+     <!-- The Navbar-->
+
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" >
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"> TOPO APS VIEWER</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">About</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2 btn btn-outline-success" type="file" placeholder="Upload" aria-label="Search">
+              <!-- <button class="btn btn-outline-success" type="submit">Upload</button> -->
+              
+              
+            </form>
+          </div>
+        </div>
+      </nav>
+
+
+    <br>
+    <br>
+
+
+    <h2 class="heading-3">Topo Surveyor Application</h2>
+
+    <br>
+    <br>
+    <br>
+    <div class="container">
+          <div class="col-12">
+            <!-- The Suveryor Data-->
+
+            <div class="details-group-example">
+                <!--The Data Station 001-->
+                <sl-details summary="Station 1" open>
+            
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Point (Pt)</th>
+                            <th scope="col">Horizontal Angle (Hz)</th>
+                            <th scope="col">Vertical Angle (Vt)</th>
+                            <th scope="col">Slope Distance (Di)</th>
+                            <th scope="col">PPM + Prism Constant</th>
+                            <th scope="col">Reflector Height (hr)</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            
+                            <td>0002</td>
+                            <td>325.41261</td>
+                            <td>103.25226</td>
+                            <td>10.910</td>
+                            <td>000+023</td>
+                            <td>1.450</td>
+                          </tr>
+            
+                          <tr>
+                            <td>0004</td>
+                            <td>073.69574</td>
+                            <td>098.61448</td>
+                            <td>17.925</td>
+                            <td>000+023</td>
+                            <td>1.450</td>
+                          </tr>
+            
+                          <tr>
+                            <td>1001</td>
+                            <td>330.22880</td>
+                            <td>108.54854</td>
+                            <td>02.278</td>
+                            <td>000+023</td>
+                            <td>1.450</td>
+                          </tr>
+            
+                          <tr>
+                            <td>1004</td>
+                            <td>340.63398</td>
+                            <td>103.59765</td>
+                            <td>07.578</td>
+                            <td>000+023</td>
+                            <td>1.450</td>
+                          </tr>
+            
+                          <tr>
+                            <td>1005</td>
+                            <td>343.04620</td>
+                            <td>104.11273</td>
+                            <td>07.588</td>
+                            <td>000+023</td>
+                            <td>1.450</td>
+                          </tr>
+            
+                        </tbody>
+                      </table>
+            
+                </sl-details>
+            
+            
+              
+                <sl-details summary="Station 2">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </sl-details>
+              
+                <sl-details summary="Station 3">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                  aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                </sl-details>
+
+                <sl-details summary="Station 4">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </sl-details>
+
+
+                  <sl-details summary="Station 5">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                  </sl-details>
+
+
+              </div>
+              
+
+
+        </div>
+          
+      </div>
+
+     
+      <br>
+      <br>
+      <br>
+      <hr>
+
+    
+
+
+  <br>
+  <br>
+
+  <!-- <div class="container">
+
+     <div class="row">
+
+        <p class="d-inline-flex gap-1">
+          
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
+          </p>
+          <div class="row">
+
+            <div class="col-6">
+              <div class="collapse multi-collapse" id="multiCollapseExample1">
+                <div class="card card-body"> -->
+
+                    <!--The Traverse Data Points-->
+                    <!-- <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">First</th>
+                            <th scope="col">Middle</th>
+                            <th scope="col">Last</th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                          <tr>
+                            <td>1000.000000</td>
+                            <td>2000.000000</td>
+                            <td>50.000000</td>
+                          </tr>
+
+                          <tr>
+                            <td>989.962878</td>
+                            <td>2004.232427</td>
+                            <td>49.686093</td>
+                          </tr>
+
+                          <tr>
+                            <td>985.460027</td>
+                            <td>2026.233230</td>
+                            <td>49.195723 </td>
+                          </tr>
+
+
+                          <tr>
+                            <td>1016.411631</td>
+                            <td>2007.195456</td>
+                            <td>50.629871 </td>
+                          </tr>
+
+
+                          <tr>
+                            <td>1005.296624</td>
+                            <td>1989.298239</td>
+                            <td>50.722010 </td>
+                          </tr>
+
+
+                        </tbody>
+                      </table>
+                
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="collapse multi-collapse" id="multiCollapseExample2">
+                <div class="card card-body">
+                 <img src="images/b - Traverse.jpg" alt="Traverse Image">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <p class="d-inline-flex gap-1">
+            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".dogo-collapse" aria-expanded="false" aria-controls="multiCollapseCogo1 multiCollapseCogo2">Display Cogo Points</button>
+          </p>
+
+
+          <div class="row">
+
+            <div class="col-6">
+              <div class="collapse dogo-collapse" id="multiCollapseCogo1">
+                <div class="card card-body">
+                   -->
+                    <!--The Cogo Data Coordinates-->
+                    <!-- <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Title1</th>
+                            <th scope="col">Title2</th>
+                            <th scope="col">Title3</th>
+                            <th scope="col">Title4</th>
+                            <th scope="col">Title5</th>
+                          </tr>
+                        </thead>
+                        <tbody class="table-group-divider">
+                          <tr>
+                            <td>1001</td>
+                            <td>997.992079</td>
+                            <td>2001.032194</td>
+                            <td>49.943002</td>
+                            <td>1410</td>
+                          </tr>
+                          <tr>
+                            <td>1002</td>
+                            <td>993.464167</td>
+                            <td>2003.854845</td>
+                            <td>49.853407</td>
+                            <td>1411</td>
+                          </tr>
+                          <tr>
+                            <td>1004</td>
+                            <td>993.923886</td>
+                            <td>2004.507682</td>
+                            <td>49.820003</td>
+                            <td>2410</td>
+                          </tr>
+
+                          <tr>
+                            <td>1005</td>
+                            <td>994.093573</td>
+                            <td>2004.738982</td>
+                            <td>49.758115</td>
+                            <td>10</td>
+                          </tr>
+
+                          <tr>
+                            <td>1006</td>
+                            <td>996.734157</td>
+                            <td>2003.032310</td>
+                            <td>49.814107</td>
+                            <td>10</td>
+                          </tr>
+
+                        </tbody>
+                      </table>
+
+
+                </div>
+              </div>
+            </div>
+
+            <div class="col-6">
+              <div class="collapse dogo-collapse" id="multiCollapseCogo2">
+                <div class="card card-body">
+                  <img src="images/c - Traverse + points.jpg" alt="Cogo Points" sizes="100px">
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+     </div>
+     
+
+  </div> -->
+
+
+  <br>
+  <br>
+  <br>
+   
+
+  <!-- The Coordinates Dropdown coordination-->
+
+    <p class="d-inline-flex gap-1">
+          
+        <div class="dropdown">
+            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+              Choose Coordinate Sample
+            </a>
+      </p>
+  
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Traverse Coordinates</a></li>
+
+      
+
+      <li><a class="dropdown-item" data-bs-toggle="collapse" data-bs-target=".dogo-collapse" aria-expanded="false" aria-controls="multiCollapseCogo1 multiCollapseCogo2">Cogo Points</a></li>
+    </ul>
+  </div>
+
+
+  <!-- The Traverse Dropdown data-->
+  <div class="container">
+  <div class="row">
+
+    <div class="col-6">
+
+      <div class="collapse multi-collapse" id="multiCollapseExample1">
+        <div class="card card-body">
+
+            <h3 class="heading-3">Traverse Coordinates</h3>
+            <br>
+
+            <!--The Traverse Data Points-->
+            <table class="table">
+                <thead>
+                  <tr>
+                    <th scope="col">First</th>
+                    <th scope="col">Middle</th>
+                    <th scope="col">Last</th>
+                  </tr>
+                </thead>
+                <tbody class="table-group-divider">
+                  <tr>
+                    <td>1000.000000</td>
+                    <td>2000.000000</td>
+                    <td>50.000000</td>
+                  </tr>
+
+                  <tr>
+                    <td>989.962878</td>
+                    <td>2004.232427</td>
+                    <td>49.686093</td>
+                  </tr>
+
+                  <tr>
+                    <td>985.460027</td>
+                    <td>2026.233230</td>
+                    <td>49.195723 </td>
+                  </tr>
+
+
+                  <tr>
+                    <td>1016.411631</td>
+                    <td>2007.195456</td>
+                    <td>50.629871 </td>
+                  </tr>
+
+
+                  <tr>
+                    <td>1005.296624</td>
+                    <td>1989.298239</td>
+                    <td>50.722010 </td>
+                  </tr>
+
+
+                </tbody>
+              </table>
+        
+
+        </div>
+      </div>
+    </div>
+
+    <div class="col-6">
+      <div class="collapse multi-collapse" id="multiCollapseExample2">
+        <div class="card card-body">
+         <img src="images/b - Traverse.jpg" alt="Traverse Image">
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  </div>
+
+<!-- End of Traverse Coordinates-->
+
+
+<!-- The Cogo Coordinates-->
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-6">
+          <div class="collapse dogo-collapse" id="multiCollapseCogo1">
+            <div class="card card-body">
+            
+                <h3 class="heading-3">Cogo Points</h3>
+            <br>
+                 <table class="table">
+                    <thead>
+                      <tr>
+                        <th scope="col">Title1</th>
+                        <th scope="col">Title2</th>
+                        <th scope="col">Title3</th>
+                        <th scope="col">Title4</th>
+                        <th scope="col">Title5</th>
+                      </tr>
+                    </thead>
+                    <tbody class="table-group-divider">
+                      <tr>
+                        <td>1001</td>
+                        <td>997.992079</td>
+                        <td>2001.032194</td>
+                        <td>49.943002</td>
+                        <td>1410</td>
+                      </tr>
+                      <tr>
+                        <td>1002</td>
+                        <td>993.464167</td>
+                        <td>2003.854845</td>
+                        <td>49.853407</td>
+                        <td>1411</td>
+                      </tr>
+                      <tr>
+                        <td>1004</td>
+                        <td>993.923886</td>
+                        <td>2004.507682</td>
+                        <td>49.820003</td>
+                        <td>2410</td>
+                      </tr>
+
+                      <tr>
+                        <td>1005</td>
+                        <td>994.093573</td>
+                        <td>2004.738982</td>
+                        <td>49.758115</td>
+                        <td>10</td>
+                      </tr>
+
+                      <tr>
+                        <td>1006</td>
+                        <td>996.734157</td>
+                        <td>2003.032310</td>
+                        <td>49.814107</td>
+                        <td>10</td>
+                      </tr>
+
+                    </tbody>
+                  </table>
+
+
+            </div>
+          </div>
+        </div>
+
+        <div class="col-6">
+          <div class="collapse dogo-collapse" id="multiCollapseCogo2">
+            <div class="card card-body">
+              <img src="images/c - Traverse + points.jpg" alt="Cogo Points" sizes="100px">
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+
+ </div>
+
+</div>
+
+
+  <br>
+  <br>
+  <br>
+
+
+
+<!-- The website footer-->
+<div class="container">
+
+<footer>
+
+    <div class="row">
+
+        <div class="col-4">
+
+            APS
+            
+
+        </div>
+
+        <div class="col-4">
+            Autodesk
+        </div>
+
+        <div class="col-4">
+            POC
+        </div>
+
+    </div>
+
+    <br>
+    <br>
+
+</footer>
+    
+
+</div>
+
+
+
+  <!--The surveyor data dropdown implementation-->
+  <script>
+    const container = document.querySelector('.details-group-example');
+  
+    // Close all other details when one is shown
+    container.addEventListener('sl-show', event => {
+      if (event.target.localName === 'sl-details') {
+        [...container.querySelectorAll('sl-details')].map(details => (details.open = event.target === details));
+      }
+    });
+  </script>
+  
+  <style>
+    .details-group-example sl-details:not(:last-of-type) {
+      margin-bottom: var(--sl-spacing-2x-small);
+    }
+  </style>
+
+
+
+    
+</body>
+</html>
