@@ -20,25 +20,29 @@
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark" >
         <div class="container-fluid">
-          <a class="navbar-brand" href="#"> TOPO APS VIEWER</a>
+          <a class="navbar-brand" href="#"> TOPO SURVEYOR</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll" aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarScroll">
             <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                <a class="nav-link active" aria-current="page" href="https://www.autodesk.com/" target="_blank">AUTODESK</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#">About</a>
+                <a class="nav-link active" href="https://aps.autodesk.com/" target="_blank">APS</a>
               </li>
             </ul>
-            <form class="d-flex" role="search">
-              <input class="form-control me-2 btn btn-outline-success" type="file" placeholder="Upload" aria-label="Search">
-              <!-- <button class="btn btn-outline-success" type="submit">Upload</button> -->
-              
+            <form class="d-flex">
+              <input class=" btn btn-outline-primary" type="file" placeholder="Open File" aria-label="Open File">
+              <!-- <button class="btn btn-outline-success" type="submit">Open File</button> -->
+
               
             </form>
+            
+
+            
+
           </div>
         </div>
       </nav>
@@ -48,7 +52,10 @@
     <br>
 
 
-    <h2 class="heading-3">Topo Surveyor Application</h2>
+    <div class="col-12">
+        <h2 class="display-4 text-center"> Topo Surveyor Application</h2>
+    </div>
+<hr>
 
     <br>
     <br>
@@ -417,185 +424,30 @@
       <br>
       <hr>
 
-    
-
-
-  <br>
-  <br>
-
-  <!-- <div class="container">
-
-     <div class="row">
-
-        <p class="d-inline-flex gap-1">
-          
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle both elements</button>
-          </p>
-          <div class="row">
-
-            <div class="col-6">
-              <div class="collapse multi-collapse" id="multiCollapseExample1">
-                <div class="card card-body"> -->
-
-                    <!--The Traverse Data Points-->
-                    <!-- <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">First</th>
-                            <th scope="col">Middle</th>
-                            <th scope="col">Last</th>
-                          </tr>
-                        </thead>
-                        <tbody class="table-group-divider">
-                          <tr>
-                            <td>1000.000000</td>
-                            <td>2000.000000</td>
-                            <td>50.000000</td>
-                          </tr>
-
-                          <tr>
-                            <td>989.962878</td>
-                            <td>2004.232427</td>
-                            <td>49.686093</td>
-                          </tr>
-
-                          <tr>
-                            <td>985.460027</td>
-                            <td>2026.233230</td>
-                            <td>49.195723 </td>
-                          </tr>
-
-
-                          <tr>
-                            <td>1016.411631</td>
-                            <td>2007.195456</td>
-                            <td>50.629871 </td>
-                          </tr>
-
-
-                          <tr>
-                            <td>1005.296624</td>
-                            <td>1989.298239</td>
-                            <td>50.722010 </td>
-                          </tr>
-
-
-                        </tbody>
-                      </table>
-                
-
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6">
-              <div class="collapse multi-collapse" id="multiCollapseExample2">
-                <div class="card card-body">
-                 <img src="images/b - Traverse.jpg" alt="Traverse Image">
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-
-          <p class="d-inline-flex gap-1">
-            <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target=".dogo-collapse" aria-expanded="false" aria-controls="multiCollapseCogo1 multiCollapseCogo2">Display Cogo Points</button>
-          </p>
-
-
-          <div class="row">
-
-            <div class="col-6">
-              <div class="collapse dogo-collapse" id="multiCollapseCogo1">
-                <div class="card card-body">
-                   -->
-                    <!--The Cogo Data Coordinates-->
-                    <!-- <table class="table">
-                        <thead>
-                          <tr>
-                            <th scope="col">Title1</th>
-                            <th scope="col">Title2</th>
-                            <th scope="col">Title3</th>
-                            <th scope="col">Title4</th>
-                            <th scope="col">Title5</th>
-                          </tr>
-                        </thead>
-                        <tbody class="table-group-divider">
-                          <tr>
-                            <td>1001</td>
-                            <td>997.992079</td>
-                            <td>2001.032194</td>
-                            <td>49.943002</td>
-                            <td>1410</td>
-                          </tr>
-                          <tr>
-                            <td>1002</td>
-                            <td>993.464167</td>
-                            <td>2003.854845</td>
-                            <td>49.853407</td>
-                            <td>1411</td>
-                          </tr>
-                          <tr>
-                            <td>1004</td>
-                            <td>993.923886</td>
-                            <td>2004.507682</td>
-                            <td>49.820003</td>
-                            <td>2410</td>
-                          </tr>
-
-                          <tr>
-                            <td>1005</td>
-                            <td>994.093573</td>
-                            <td>2004.738982</td>
-                            <td>49.758115</td>
-                            <td>10</td>
-                          </tr>
-
-                          <tr>
-                            <td>1006</td>
-                            <td>996.734157</td>
-                            <td>2003.032310</td>
-                            <td>49.814107</td>
-                            <td>10</td>
-                          </tr>
-
-                        </tbody>
-                      </table>
-
-
-                </div>
-              </div>
-            </div>
-
-            <div class="col-6">
-              <div class="collapse dogo-collapse" id="multiCollapseCogo2">
-                <div class="card card-body">
-                  <img src="images/c - Traverse + points.jpg" alt="Cogo Points" sizes="100px">
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-
-     </div>
-     
-
-  </div> -->
-
 
   <br>
   <br>
   <br>
    
 
+  <div class="col-12">
+  <h1 class="display-4 text-center">View Your Coordinates</h1>
+<hr>
+  </div>
+
+
+<br>
+<br>
+
+
   <!-- The Coordinates Dropdown coordination-->
 
+  <div class="container">
+    <div class="col-12">
     <p class="d-inline-flex gap-1">
           
         <div class="dropdown">
-            <a class="btn btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            <a class="btn btn-primary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
               Choose Coordinate Sample
             </a>
       </p>
@@ -619,16 +471,16 @@
       <div class="collapse multi-collapse" id="multiCollapseExample1">
         <div class="card card-body">
 
-            <h3 class="heading-3">Traverse Coordinates</h3>
+            <h3 class="display-6">Traverse Coordinates</h3>
             <br>
 
             <!--The Traverse Data Points-->
             <table class="table">
                 <thead>
                   <tr>
-                    <th scope="col">First</th>
-                    <th scope="col">Middle</th>
-                    <th scope="col">Last</th>
+                    <th scope="col">Point1</th>
+                    <th scope="col">Point2</th>
+                    <th scope="col">Point3</th>
                   </tr>
                 </thead>
                 <tbody class="table-group-divider">
@@ -698,16 +550,16 @@
           <div class="collapse dogo-collapse" id="multiCollapseCogo1">
             <div class="card card-body">
             
-                <h3 class="heading-3">Cogo Points</h3>
+                <h3 class="display-6">Cogo Points</h3>
             <br>
                  <table class="table">
                     <thead>
                       <tr>
-                        <th scope="col">Title1</th>
-                        <th scope="col">Title2</th>
-                        <th scope="col">Title3</th>
-                        <th scope="col">Title4</th>
-                        <th scope="col">Title5</th>
+                        <th scope="col">Point 1</th>
+                        <th scope="col">Point 2</th>
+                        <th scope="col">Point 3</th>
+                        <th scope="col">Point 4</th>
+                        <th scope="col">Point 5</th>
                       </tr>
                     </thead>
                     <tbody class="table-group-divider">
@@ -780,36 +632,40 @@
 
 
 <!-- The website footer-->
-<div class="container">
-
 <footer>
 
-    <div class="row">
+    <div class="container">
 
-        <div class="col-4">
+        <div class="row text-center">
 
-            APS
-            
+          <div class="col-4">
+              
+            <p>AUTODESK</p>
 
-        </div>
+          </div>
 
-        <div class="col-4">
-            Autodesk
-        </div>
+          <div class="col-4">
 
-        <div class="col-4">
-            POC
+            <p>APS</p>
+
+          </div>
+
+          <div class="col-4">
+
+            <p>AUTODESK UNIVERSITY</p>
+
+          </div>
+         
+          <div class="col-12">
+           <hr>
+           <h5>&copy;AUTODESK</h5>
+          </div>
+
         </div>
 
     </div>
 
-    <br>
-    <br>
-
 </footer>
-    
-
-</div>
 
 
 
